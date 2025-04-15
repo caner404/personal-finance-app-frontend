@@ -9,9 +9,11 @@
     "lint": "eslint .",
     "format": "npx prettier --write .",
     "test": "vitest",
+    "test:coverage": "npx vitest --coverage",
     "test:e2e": "npx playwright test",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
+    "test-storybook": "vitest --project=storybook",
     "build-storybook": "storybook build"
   },
   "dependencies": {
